@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     div.out
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E08, symSize: 0x7C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E08, symSize: 0x7C }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _find_div, symObjAddr: 0x7C, symBinAddr: 0x100003E84, symSize: 0xF8 }
+...
