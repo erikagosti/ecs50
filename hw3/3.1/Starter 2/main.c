@@ -5,7 +5,6 @@ int** matMult(int **a, int num_rows_a, int num_cols_a, int** b, int num_rows_b, 
 void displayMat(int** mat, int num_rows, int num_cols);
 void readMat(const char* file_name, int*** mat, int* num_rows, int* num_cols);
 
-
 void displayMat(int** mat, int num_rows, int num_cols){
 	//display the contents of the 2D matrix to the scren
 	//@mat: the matrix to be displayed

@@ -1,5 +1,5 @@
 
-OPTIONS := -g -m32 -Wall -Werror -fno-pie -no-pie
+OPTIONS := -g -m32 -Wall -Werror -fno-pie 
 matmult.out: main.o matmult.o
 	gcc $(OPTIONS) -o matmult.out main.o matmult.o
 
